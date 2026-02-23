@@ -31,11 +31,11 @@ func main()  {
 	}
 
 	fmt.Println(patient1)
-	fmt.Printf("Is Adult: %t", patient1.IsAdult())
+	fmt.Printf("Is Adult: %t\n", patient1.IsAdult())
 
 	// update heart rate
 	patient1.UpdateHeartRate(99)
-	fmt.Printf("New Heart Rate: %d", patient1.HeartRate)
+	fmt.Printf("New Heart Rate: %d\n", patient1.HeartRate)
 
 	//short declaration
 	patient2 := Patient{"Jane", 90, "B-", 120}
