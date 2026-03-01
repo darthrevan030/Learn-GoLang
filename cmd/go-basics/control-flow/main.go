@@ -55,12 +55,12 @@ func main() {
     temperature := 25
     switch {
     case temperature < 0:
-        fmt.Println("Freezing\n")
+        fmt.Println("Freezing")
     case temperature < 20:
-        fmt.Println("Cold\n")
+        fmt.Println("Cold")
     case temperature < 30:
-        fmt.Println("Comfortable\n")
+        fmt.Println("Comfortable")
     default:
-        fmt.Println("Hot\n")
+        fmt.Println("Hot")
     }
 }
