@@ -23,6 +23,13 @@ func main() {
 		fmt.Println(i)
 	}
 
+	// initial and final state statements are optional 
+	sum := 1
+	for ; sum < 5; {
+		sum += sum
+	}
+	fmt.Println(sum)
+
 	// While-style loop
 	count := 0
 	for count < 3 {
